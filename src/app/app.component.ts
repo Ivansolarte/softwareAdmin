@@ -8,7 +8,7 @@ import { Usuario } from './modelos/usuario';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'prueba1';
+
 
   listaDeUsuarios: Usuario[] = [] as Usuario[];
 
@@ -23,6 +23,7 @@ export class AppComponent {
     },
     error => {
       console.log(error);
+
     });
   }
 }
