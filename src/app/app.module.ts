@@ -8,13 +8,19 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UsuarioComponent } from './dashboard/usuario/usuario.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './dashboard/shared/header/header.component';
+import { BodyComponent } from './dashboard/shared/body/body.component';
+import { FooterComponent } from './dashboard/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
